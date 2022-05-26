@@ -46,3 +46,35 @@ int main(){
         }
     }
   }
+
+OUTPUT:
+1-Producer
+2-Consumer
+3-Exit
+Enter your choice :1
+Producer produce the item 1 
+Enter your choice :1
+Producer produce the item 2 
+Enter your choice :1
+Producer produce the item 3 
+Enter your choice :1
+Producer produce the item 4 
+Enter your choice :1
+Producer produce the item 5 
+Enter your choice :1
+Buffer is full
+Enter your choice :2
+Consumer consume item 5
+Enter your choice :2
+Consumer consume item 4
+Enter your choice :2
+Consumer consume item 3
+Enter your choice :2
+Consumer consume item 2
+Enter your choice :2
+Consumer consume item 1
+Enter your choice :2
+Buffer is empty
+Enter your choice :1
+Producer produce the item 1 
+Enter your choice :3
