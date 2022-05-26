@@ -46,3 +46,22 @@ int main(){
         printf("%d \t\t %d \t\t %d \t\t %d \t\t %d\n",p[i],bt[i],at[i],wt[i],tat[i]);
  
 }
+
+OUTPUT:
+enter number of processes
+4
+enter the burst time of process 0 6 
+enter the arrival time of process 0 1
+enter the burst time of process 1 5
+enter the arrival time of process 1 1
+enter the burst time of process 2 5
+enter the arrival time of process 2 2
+enter the burst time of process 3 3
+enter the arrival time of process 3 4
+process         burst           arrivals        waiting turnaround
+1               6               1               0               6
+2               5               1               6               11
+3               5               2               10              15
+4               3               4               13              16
+Average waiting time : 7.000000
+Average turn around time : 12.000000
